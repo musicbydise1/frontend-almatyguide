@@ -1,0 +1,13 @@
+$background_color: #fff;
+
+.food-tabs {
+  background: $background_color;
+}
+
+@if($background_color == #fff) {
+  #navbar li a {
+  }
+  .search-icon {
+  }
+
+}
