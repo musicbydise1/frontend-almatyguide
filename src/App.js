@@ -7,6 +7,7 @@ import Home from "./assets/Pages/Home";
 function App() {
   return (
     <div className="App">
+     <Header />
     </div>
   );
 }
