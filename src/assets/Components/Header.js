@@ -10,10 +10,15 @@ import Tours from '../Pages/Tours'
 import Movement from '../Pages/Movement'
 import Contacts from '../Pages/Contacts'
 import Login from '../Pages/Login'
-import Reddragon from "../Pages/Reddragon";
-import Dijon from "../Pages/Dijon";
+import FoodPage from "../Pages/FoodPage";
+import RestaurantPage from "../Pages/RestaurantPage";
 import ResReserv from "../Pages/Res-reserv";
 import Reg from "../Pages/Reg";
+import Basket from "../Pages/Basket";
+import EntertainmentPage from "../Pages/EntertainmentPage";
+import TourPage from "../Pages/TourPage";
+import Charyn from "../Pages/Charyn";
+import EntertainmentPageReserv from "../Pages/EntertainmentPageReserv";
 
 
 class Header extends Component {
@@ -31,10 +36,15 @@ class Header extends Component {
                         <Route exact path= "/movement" element = {<Movement />} />
                         <Route exact path= "/contacts" element = {<Contacts />} />
                         <Route exact path= "/login" element = {<Login />} />
-                        <Route exact path= "/reddragon" element = {<Reddragon />} />
-                        <Route exact path="/dijon" element = {<Dijon />} />
+                        <Route exact path= "/reddragon" element = {<FoodPage />} />
+                        <Route exact path="/dijon" element = {<RestaurantPage />} />
                         <Route exact path="/res-reserv" element ={<ResReserv />} />
                         <Route exact path="/reg" element ={<Reg />} />
+                        <Route exact path="/basket" element ={<Basket />} />
+                        <Route exact path="/entertainmentpage" element ={<EntertainmentPage />} />
+                        <Route exact path="/tourpage" element = {<TourPage />} />
+                        <Route exact path="/tourpage-charyn" element={<Charyn />} />
+                        <Route exact path="/entertainmentpageres" element={<EntertainmentPageReserv />} />
 
                     </Routes>
                 </Router>

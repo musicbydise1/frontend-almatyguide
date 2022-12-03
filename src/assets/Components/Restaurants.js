@@ -4,7 +4,14 @@ import dijon from "../img/dijon.png";
 import afanasich from '../img/afanasich.png'
 import jambull from '../img/jambull.png'
 import zags from '../img/zags.png'
-
+import linebrew from '../img/linebrew.png'
+import len from '../img/len.png'
+import noodles from '../img/noodles.png'
+import lui from '../img/lui.png'
+import raw from '../img/raw.png'
+import oblaka from '../img/oblaka.png'
+import plv from '../img/plv.png'
+import svet from '../img/svet.png'
 class Restaurants extends Component {
     render() {
         return (
@@ -13,41 +20,143 @@ class Restaurants extends Component {
                     <div className="food-boxes">
                         <div className="food-box">
                             <div className="box-img">
-                                <a href="/dijon"> <img src={dijon} alt=""/></a>
+                                <img src={dijon} alt=""/>
                             </div>
                             <div className="box-text">
                                 <h2>Dijon</h2>
-                                <p>Average check: <span className="text-bold"> 10000-15000 tenge </span></p>
-                                <p>Cuisine: <span className="text-bold"> French</span></p>
-                                <div className="addresses">
-                                    <p>Addresses:</p>
-                                    <div className="text-bold">
-                                        <p>Almaty, Al-Farabi ave., 140a/2 (MFC VILLA)</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="food-box">
-                            <div className="box-img">
-                                <img src={afanasich} alt=""/>
-                            </div>
-                            <div className="box-text">
-                                <h2>Afanasich</h2>
                                 <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
                                 <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
                                 <div className="addresses">
                                     <p>Addresses:</p>
                                     <div className="text-bold">
                                         <p>Gogol, 87</p>
-                                        <p>Rozybakiyeva, 136/1</p>
-                                        <p>Tole bi, 55/1</p>
-                                        <p> Zhibek Zholy avenue, 64</p>
-                                        <p>Tole bi, 229/2 </p>
-                                        <p>SEC Mega Center Alma-Ata Rozybakiyeva, 247a</p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
                         </div>
+
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={linebrew} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Line Brew Reserve</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={zags} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>ZAGS</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={len} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Len</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={noodles} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Noodles</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={lui} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Lui Restaurant</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={raw} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Raw</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
                         <div className="food-box">
                             <div className="box-img">
                                 <img src={jambull} alt=""/>
@@ -60,36 +169,97 @@ class Restaurants extends Component {
                                     <p>Addresses:</p>
                                     <div className="text-bold">
                                         <p>Gogol, 87</p>
-                                        <p>Rozybakiyeva, 136/1</p>
-                                        <p>Tole bi, 55/1</p>
-                                        <p> Zhibek Zholy avenue, 64</p>
-                                        <p>Tole bi, 229/2 </p>
-                                        <p>SEC Mega Center Alma-Ata Rozybakiyeva, 247a</p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
                         </div>
+
                         <div className="food-box">
                             <div className="box-img">
-                                <img src={zags} alt=""/>
+                                <img src={oblaka} alt=""/>
                             </div>
                             <div className="box-text">
-                                <h2>Zags</h2>
+                                <h2>Oblaka</h2>
                                 <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
                                 <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
                                 <div className="addresses">
                                     <p>Addresses:</p>
                                     <div className="text-bold">
                                         <p>Gogol, 87</p>
-                                        <p>Rozybakiyeva, 136/1</p>
-                                        <p>Tole bi, 55/1</p>
-                                        <p> Zhibek Zholy avenue, 64</p>
-                                        <p>Tole bi, 229/2 </p>
-                                        <p>SEC Mega Center Alma-Ata Rozybakiyeva, 247a</p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
                         </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={plv} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Lui Restaurant</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={svet} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>Raw</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+                        <div className="food-box">
+                            <div className="box-img">
+                                <img src={afanasich} alt=""/>
+                            </div>
+                            <div className="box-text">
+                                <h2>U Afanasicha</h2>
+                                <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
+                                <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
+                                <div className="addresses">
+                                    <p>Addresses:</p>
+                                    <div className="text-bold">
+                                        <p>Gogol, 87</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-btn">
+                                <a href="/dijon" style={{ border: "none", background: "none", padding: "0" }}> <button>Reserve table</button> </a>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
                 </Container>
             </div>

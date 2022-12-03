@@ -27,7 +27,7 @@ class FastFood extends Component {
                                 <img src={burgerking} alt=""/>
                             </div>
                             <div className="box-text">
-                                <h2>Red Dragon</h2>
+                                <h2>Burger King</h2>
                                 <p>Average check: <span className="text-bold"> 1000-2500 tenge </span></p>
                                 <p>Cuisine: <span className="text-bold"> Asian, Chinese, Pan-Asian</span></p>
                                 <div className="addresses">
@@ -43,7 +43,7 @@ class FastFood extends Component {
                                 </div>
                             </div>
                             <div className="box-btn">
-                                <button>Check menu</button>
+                                <a href="/reddragon" style={{ border: "none", background: "none", padding: "0" }}> <button>Check menu</button> </a>
                             </div>
                         </div>
 
@@ -74,7 +74,7 @@ class FastFood extends Component {
 
                         <div className="food-box">
                             <div className="box-img">
-                                <a href="/reddragon"> <img src={salambro} alt=""/></a>
+                                 <img src={salambro} alt=""/>
                             </div>
                             <div className="box-text">
                                 <h2>Salam Bro</h2>

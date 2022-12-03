@@ -18,7 +18,7 @@ class Cinemas extends Component {
                     <div className="food-boxes">
                         <div className="food-box entert">
                             <div className="box-img">
-                                <a href="/reddragon"> <img src={chaplinmega} alt=""/></a>
+                               <img src={chaplinmega} alt=""/>
                             </div>
                             <div className="box-text">
                                 <div className="texts">
@@ -28,7 +28,7 @@ class Cinemas extends Component {
 
                             </div>
                             <div className="box-btn">
-                                <button>Afisha</button>
+                                <a href="/entertainmentpage"><button>Afisha</button></a>
                             </div>
                         </div>
 

@@ -99,14 +99,13 @@ body {
 
 .food-boxes {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 250px 250px 250px 250px;
   border: 1px solid rgba(29, 29, 29, 0.7);
   border-top: none;
 }
 
 .food-box {
   width: 250px;
-  margin: 0 auto;
   border-right: 1px solid rgba(29, 29, 29, 0.7);
   border-bottom: 1px solid rgba(29, 29, 29, 0.7);
 }
@@ -125,8 +124,10 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   border-top: 1px solid rgba(29, 29, 29, 0.7);
-  margin-top: 50px;
   padding-bottom: 70px;
+}
+.tab-content {
+  padding-left: 40px;
 }
 .nav-item button{
   font-family: 'Raleway';
@@ -314,6 +315,7 @@ body {
   padding-top: 50px;
   height: 20%;
   border: none!important;
+  display: block !important;
 }
 .tabss li {
 }
@@ -402,21 +404,7 @@ label {
   margin-top: 20px;
 }
 
-.box-btn a {
-  background: transparent;
-  border: 1px solid #622F00;
-  font-weight: 700;
-  color: #622F00;
-  padding: 12px 50px;
-  border-radius: 100px 0;
-  text-transform: none;
-  text-decoration: none;
-}
-.box-btn a:hover {
-  color: #F3F3F3;
-  background:#622F00;
-  transition: .3s;
-}
+
 
 .home-btn {
   text-align: left;
@@ -539,24 +527,7 @@ label {
   margin-bottom: 10px;
 }
 
-a {
-  position: relative;
-  text-decoration: none;
-  color: red;
-}
-a:after {
-  content: "";
-  height: 1px;
-  bottom: -4px;
-  position: absolute;
-  left: 5%;
-  right: 95%;
-  background: red;
-  transition: right 0.25s ease-in-out;
-}
-a:hover:after {
-  right: 5%;
-}
+
 
 .teasing-1,
 .heading-2 {
@@ -673,4 +644,8 @@ div[role=button] {
   grid-template-columns: auto auto auto;
   margin-right: 180px;
   margin-top: 90px;
+}
+.entert .box-btn a {
+  background: transparent;
+  border: none;
 }

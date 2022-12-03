@@ -1,5 +1,6 @@
 .navigation-panel {
     background: transparent;
+
 }
 
 nav {
@@ -34,19 +35,30 @@ nav {
 }
 
 #navbar li a:hover {
-    color: #000;
-    transition: .3s;
+    color: #024E00;
+    transition: .3s ease-in-out;
 }
-#navbar li a:hover::after {
+
+
+#navbar li a:after {
     content: "";
-    width: 30%;
-    height: 2px;
-    background: #622F00;
+    height: 1px;
+    bottom: 30%;
     position: absolute;
-    bottom: -4px;
-    left: 20px;
+    left: 0%;
+    right: 100%;
+    background: #024E00;
+    transition: right 0.25s ease-in-out;
+}
+
+#navbar li a:hover:after {
+    right: 5%;
 }
 
 nav a {
     z-index: 999;
+}
+
+.dark-back {
+    background-color: rgba(25, 23, 23, 0.25);
 }

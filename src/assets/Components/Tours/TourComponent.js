@@ -25,14 +25,14 @@ class TourComponent extends Component {
                             <img src={kaindy} alt=""/>
                         </div>
                         <div className="tours-text">
-                            <h1>Big Almaty Lake</h1>
+                            <h1>Kaindy</h1>
                             <div className="tours-price">
                                 <div className="price">
                                     <p>Cost: 6000 tenge | Date: 13/11/2021</p>
                                     <p> Time: 8.00 am - 11.00 pm</p>
                                 </div>
                                 <div className="tours-btn box-btn">
-                                    <button>More</button>
+                                    <a href="/tourpage"><button>More</button></a>
                                 </div>
                             </div>
                         </div>
@@ -42,14 +42,14 @@ class TourComponent extends Component {
                             <img src={charyn} alt=""/>
                         </div>
                         <div className="tours-text">
-                            <h1>Big Almaty Lake</h1>
+                            <h1>Charyn</h1>
                             <div className="tours-price">
                                 <div className="price">
                                     <p>Cost: 6000 tenge | Date: 13/11/2021</p>
                                     <p> Time: 8.00 am - 11.00 pm</p>
                                 </div>
                                 <div className="tours-btn box-btn">
-                                    <button>More</button>
+                                    <a href="/tourpage-charyn"><button>More</button></a>
                                 </div>
                             </div>
                         </div>

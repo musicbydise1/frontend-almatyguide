@@ -20,7 +20,7 @@ class Home extends Component {
         }
         return (
             <Fullpage>
-                <FullpageNavigation  style ={{right: '10%', top: '15%'}} />
+                <FullpageNavigation  style ={{right: '10%', top: '10%'}} />
                 <FullPageSections>
                     <FullpageSection style = {{...SectionStyle, backgroundImage: `url(${bgf})`, backgroundSize: 'cover'}}>
                         <div className="home-section">

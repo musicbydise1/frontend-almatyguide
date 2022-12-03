@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Tab from 'react-bootstrap/Tab'
 import Tabs from 'react-bootstrap/Tabs'
-
 import Canteens from "./Canteens";
 import Restaurants from "./Restaurants";
 import CoffeeHouse from "./CoffeeHouse";
